@@ -3,7 +3,7 @@ Configuración de impresora Zonestar doble extrusor P802NR2 en klipper
 
 ## Configuración de pines
 Los pines se consultan en el código fuente de marlin del fichero pins_ZRIB.h y config/sample-aliases.cfg de klipper en el apartado [board_pins arduino-mega].
-``` xaml
+``` cfg
     [board_pins arduino-mega]
     aliases:
     ar0=PE0, ar1=PE1, ar2=PE4, ar3=PE5, ar4=PG5,
